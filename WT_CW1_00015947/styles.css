@@ -1,0 +1,279 @@
+
+body {
+    background-color: #fafafa;
+}
+
+header {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    float: left;
+    width: 33,33%;
+    padding: 5px;
+    flex: 33,33%;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.column a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: rgb(169, 169, 169);
+}
+
+.row {
+    display: flex;
+    margin-left: 3%;
+    margin-inline: 5%;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+.topnav {
+    overflow: hidden;
+    border: black;
+    padding-left: 10px;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 25px;
+    margin-right: 5px;
+    margin-left: 100px;
+    font-size: 17px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 12px;
+  }
+
+  * {box-sizing:border-box}
+
+  .slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+    margin-top: 1%;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+ 
+.container {
+    position: relative;
+    text-align: left;
+}
+
+.centered {
+    position: absolute;
+    padding: 0;
+    right: 95%;
+    left: 5%;
+    top: 3%;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 23px;
+  text-align: left;
+}
+
+.box {
+    width: 1420px;
+    height: 250px;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+  }
+  
+  .box-align {
+    position: absolute;
+    top: 25,33%;
+    margin-top: 50px;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover {
+  color: #717171;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 120;
+}
+
+.column2 {
+    float: left;
+    width: 33,33%;
+    padding: 12px;
+    flex: 33,33%;
+}
+
+.row2 {
+    display: flex;
+}
+
+.row2::after {
+    clear: both;
+    display: table;
+}
+
+.small-box {
+    width: 90px;
+    height: 400px;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+}
+
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.column3 {
+  float: left;
+  width: 33,33%;
+  padding: 10px;
+  flex: 33,33%;
+  margin: 25px;
+  padding-left: 90px;
+}
+
+.row3 {
+  display: flex;
+}
+
+.row3::after {
+  clear: both;
+  display: table;
+}
+
+.container3 {
+  position: relative;
+  text-align: left;
+}
+
+.container3 img {
+  padding: 10px;
+}
+
+.centered3 {
+  position: absolute;
+  padding: 10px;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+h5 {
+  font-family: sans-serif;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: #9c9c9c;
+  font-size: 15px;
+  font-weight: 120;
+}
+
+.box2 div{
+  height: 150px;
+  width: 150px;
+  background: #fff;
+  border-radius: 20px;
+ }
+
+.box2 {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 100;
+  text-align: center;
+}
